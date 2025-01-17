@@ -12,18 +12,23 @@ https://react.dev/learn/installation
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/abdullmoiz/TaskManagment.git
+   ```
+2. **Restore DB Backup**
+   ```sh
+   1. Go to project folder and restore the Assesssment.bak file to the SSMS.
+   2. Go to the backend folder change the connection string in db.js file.
+   ```
+3. **Install dependencies:**
+   ```sh
    cd ProjectCRUD_AbdulMoiz
    cd frontend
-   ```
-2. **Install dependencies:**
-   ```sh
    npm install
    ```
-3. **Run the frontend:**
+4. **Run the frontend:**
    ```sh
    npm start
    ```
-4. **Ensure backend API is running** at `http://localhost:5000/api/tasks`.
+5. **Ensure backend API is running** at `http://localhost:5000/api/tasks`.
 
 ## Technologies Used
 - **React.js** for frontend
