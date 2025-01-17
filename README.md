@@ -11,6 +11,7 @@ and
 https://react.dev/learn/installation
 1. **Clone the repository:**
    ```sh
+   git clone https://github.com/abdullmoiz/TaskManagment.git
    cd ProjectCRUD_AbdulMoiz
    cd frontend
    ```
