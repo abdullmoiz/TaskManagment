@@ -1,0 +1,7 @@
+[
+    { "name": "Select", "value": "" },
+    { "name": "Pending", "value": "Pending" },
+    { "name": "In Progress", "value": "In Progress" },
+    { "name": "Completed", "value": "Completed" },
+    { "name": "Cancelled", "value": "Cancelled" }
+]

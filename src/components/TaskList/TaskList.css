@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 20px;
+}
+
+.task-list-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.task-list-header {
+    color: #0078d4;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.task-table th, .task-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-table th {
+    background-color: #0078d4;
+    color: white;
+}
+
+.task-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.task-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.task-table td svg {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.task-table td.actions {
+    text-align: center;
+}
+
+.task-table td.actions button {
+    background-color: #0078d4;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-table td.actions button:hover {
+    background-color: #005a8d;
+}
+.task-list-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.task-list-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.task-status-group {
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.status-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0078d4;
+    padding: 10px;
+    background-color: #e1f5fe;
+    border-radius: 5px;
+}
+
+.task-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.task-card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 240px; 
+    padding: 15px;
+    transition: transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.task-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.task-card p {
+    font-size: 14px;
+    color: #555555;
+}
